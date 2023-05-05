@@ -33,9 +33,6 @@ Utils = {
         end
         return count
     end,
-    generateSwimRaceId = function()
-        return math.random(1000,6000) 
-    end,
     random_elem = function(tb)
         local keys = {}
         for k in pairs(tb) do table.insert(keys, k) end
